@@ -118,5 +118,5 @@ def process_traj(dname):  # start from 1
 
 
 if __name__ == '__main__':
-    name = 'NYC'
+    name = 'PA'
     process_traj(name)

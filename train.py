@@ -207,7 +207,7 @@ class Trainer:
 
 if __name__ == '__main__':
     # load data
-    dname = 'NYC'
+    dname = 'PA'
     file = open('./data/' + dname + '_data.pkl', 'rb')
     file_data = joblib.load(file)
     # tensor(NUM, M, 3), np(NUM, M, M, 2), np(L, L), np(NUM, M, M), tensor(NUM, M), np(NUM)
